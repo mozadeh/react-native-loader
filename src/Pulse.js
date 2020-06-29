@@ -37,7 +37,8 @@ export default class Pulse extends Component {
           x: 1,
           y: 0
         },
-        duration: 1000
+        duration: 1000,
+        useNativeDriver: true
       })
       .start(() => {
         if (!this.unmounted) {
