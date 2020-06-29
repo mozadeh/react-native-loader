@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Animated } from 'react-native';
 import { Surface } from '@react-native-community/art';
 
 import Bar from './animated/Bar';
