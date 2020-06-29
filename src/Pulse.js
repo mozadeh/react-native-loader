@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Surface } from '@react-native-community/art';
-
+import { Animated } from 'react-native';
 import Circle from './animated/Circle';
 
 export default class Pulse extends Component {
